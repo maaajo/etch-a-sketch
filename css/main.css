@@ -44,6 +44,7 @@ header h1 {
     transition-property: transform;
     transition-timing-function: ease-in;
     transition-duration: 100ms;
+    outline: none;
 }
 
 .action-btn:hover {
@@ -66,10 +67,12 @@ header h1 {
 
 .grid-row {
     display: flex;
-    height: calc((42rem / 16) - .9px);
 }
 
 .grid-rectangle {
-    border: 1px solid rgb(141, 141, 141);
+    border: 1px solid rgba(31, 64, 55, 0.5);
     flex: 1;
+    transition-property: background-color;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in;
 }
